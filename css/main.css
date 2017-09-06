@@ -4,20 +4,23 @@
   background
 }
 
+#container{
+  width:1000px;
+  border: black solid 4px;
+  text-align:center;
+}
+
 nav{
   height:65px;
   background-color: #ff7400;
   color:white;
+  width:1000px;
 
-}
-
-body{
-  border: black solid 4px;
 }
 
 nav p{
   display:inline;
-  margin-left:75px;
+  margin-left:25px;
   font-size: 30px;
 }
 
@@ -54,14 +57,14 @@ nav ul{
 .left{
   display:inline-block;
   width:500px;
-  margin-left:175px;
-  margin-top:100px;
+  float:left;
+
 }
 
 .right{
   display:inline-block;
   width:500px;
-  margin-top:100px;
+
 }
 
 .bottonRight{
@@ -107,4 +110,234 @@ nav ul{
 .footer{
   height:100px;
   background-color: #56d1cb;
+  width:1000px;
+
+
+}
+
+@media screen and (max-width:999px){
+  #container{
+    width:100%;
+    border: black solid 4px;
+    text-align:center;
+  }
+
+  nav{
+    height:65px;
+    background-color: #ff7400;
+    color:white;
+    width:100%;
+
+  }
+
+  nav p{
+    display:inline;
+    margin-left:5px;
+    font-size: 30px;
+  }
+
+  span.juice{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color:white;
+    list-style-type: none;
+
+  }
+
+  nav ul li{
+    list-style-type: none;
+    float:right;
+    display: inline;
+    margin-right:5%;
+    margin-top:1%;
+  }
+
+  nav ul{
+    display: inline;
+  }
+
+  .search{
+    float:right;
+    margin-right:5%;
+  }
+
+  .left{
+    display:inline-block;
+    width:50%;
+    float:left;
+
+  }
+
+  .right{
+    display:inline-block;
+    width:50%;
+
+  }
+
+  .bottonRight{
+    display:inline;
+
+  }
+
+  #main p{
+    font-size: 40px;
+  }
+
+
+  .quote button {
+      background-color:#ff7400;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-bottom:100px;
+      margin-top:50%;
+      margin-right:50%;
+
+  }
+
+  .case button {
+      background-color: #56d1cb;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-bottom:100px;
+      margin-top:50%;
+
+  }
+
+
+  .footer{
+    height:100px;
+    background-color: #56d1cb;
+    width:100%;
+
+
+  }
+}
+
+
+@media screen and (max-width:999px){
+  #container{
+    width:100%;
+    border: black solid 4px;
+    text-align:center;
+  }
+
+  nav{
+    height:65px;
+    background-color: #ff7400;
+    color:white;
+    width:100%;
+
+  }
+
+  nav p{
+    display:inline;
+    margin-left:5px;
+    font-size: 30px;
+  }
+
+  span.juice{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color:white;
+    list-style-type: none;
+
+  }
+
+  nav ul li{
+    list-style-type: none;
+    float:right;
+    display: inline;
+    margin-right:5%;
+    margin-top:1%;
+  }
+
+  nav ul{
+    display: inline;
+  }
+
+  .search{
+    float:right;
+    margin-right:5%;
+  }
+
+  .left{
+    display:inline-block;
+    width:50%;
+    float:left;
+
+  }
+
+  .right{
+    display:inline-block;
+    width:50%;
+
+  }
+
+  .bottonRight{
+    display:inline;
+
+  }
+
+  #main p{
+    font-size: 40px;
+  }
+
+
+  .quote button {
+      background-color:#ff7400;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-bottom:100px;
+      margin-top:10%;
+
+
+  }
+
+  .case button {
+      background-color: #56d1cb;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-bottom:10px;
+      margin-top:10%;
+
+  }
+
+
+  .footer{
+    height:100px;
+    background-color: #56d1cb;
+    width:100%;
+
+
+  }
 }
