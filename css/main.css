@@ -5,22 +5,29 @@
 }
 
 #container{
-  width:1000px;
+  width:1200px;
+  height:750px;
   border: black solid 4px;
   text-align:center;
+  margin: auto;
+  padding: 10px;
 }
+
+
+
 
 nav{
   height:65px;
   background-color: #ff7400;
   color:white;
-  width:1000px;
+  width:1200px;
+
 
 }
 
 nav p{
   display:inline;
-  margin-left:25px;
+  margin-left:5px;
   font-size: 30px;
 }
 
@@ -52,18 +59,22 @@ nav ul{
 .search{
   float:right;
   margin-right:5%;
+
 }
 
 .left{
   display:inline-block;
   width:500px;
   float:left;
+  margin-top:100px;
 
 }
 
 .right{
   display:inline-block;
   width:500px;
+  margin-top:100px;
+  margin-left:30px;
 
 }
 
@@ -76,50 +87,45 @@ nav ul{
   font-size: 40px;
 }
 
-
-.quote button {
-    background-color:#ff7400;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-bottom:100px;
-    margin-top:50px;
-    margin-right:50px;
-
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom:100px;
+  margin-top:50px;
+  margin-right:50px;
 }
 
-.case button {
-    background-color: #56d1cb;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-bottom:100px;
-    margin-top:50px;
+.quote {
+    background-color:#ff7400;
+}
 
+.case {
+    background-color: #56d1cb;
 }
 
 
 .footer{
+  margin-top:100px;
   height:100px;
   background-color: #56d1cb;
-  width:1000px;
+  width:1200px;
 
 
 }
 
-@media screen and (max-width:999px){
+@media only screen and (max-width:999px){
   #container{
     width:100%;
+    height:100%;
     border: black solid 4px;
     text-align:center;
+    margin: auto;
+    padding: 10px;
   }
 
   nav{
@@ -132,13 +138,13 @@ nav ul{
 
   nav p{
     display:inline;
-    margin-left:5px;
+    margin-left:2%;
     font-size: 30px;
   }
 
   span.juice{
     font-family: 'Oswald', sans-serif;
-    font-weight: 200;
+    font-weight: 200px;
 
   }
 
@@ -153,7 +159,7 @@ nav ul{
     list-style-type: none;
     float:right;
     display: inline;
-    margin-right:5%;
+    margin-right:2%;
     margin-top:1%;
   }
 
@@ -163,24 +169,32 @@ nav ul{
 
   .search{
     float:right;
-    margin-right:5%;
+    margin-right:2%;
   }
 
   .left{
     display:inline-block;
     width:50%;
     float:left;
+    margin-right:35%;
+    margin-left:25%;
 
   }
 
   .right{
-    display:inline-block;
+    display:block;
     width:50%;
+    margin-top:5%;
+    margin-right:35%;
+    margin-left:25%;
 
   }
 
   .bottonRight{
+    margin: auto;
+    padding: 2%;
     display:inline;
+    width:50%;
 
   }
 
@@ -188,35 +202,31 @@ nav ul{
     font-size: 40px;
   }
 
+  .quote {
+    background-color: red;
+  }
 
-  .quote button {
+  button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+
+  .quote {
       background-color:#ff7400;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin-bottom:100px;
-      margin-top:50%;
-      margin-right:50%;
-
+      margin:5%
   }
 
-  .case button {
+  .case {
       background-color: #56d1cb;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin-bottom:100px;
-      margin-top:50%;
-
+      margin:5%;
   }
+
+
 
 
   .footer{
@@ -229,7 +239,7 @@ nav ul{
 }
 
 
-@media screen and (max-width:999px){
+@media screen and (max-width:650px){
   #container{
     width:100%;
     border: black solid 4px;
@@ -246,8 +256,8 @@ nav ul{
 
   nav p{
     display:inline;
-    margin-left:5px;
-    font-size: 30px;
+    margin-left:2px;
+    font-size: 15px;
   }
 
   span.juice{
@@ -267,8 +277,9 @@ nav ul{
     list-style-type: none;
     float:right;
     display: inline;
-    margin-right:5%;
+    margin-right:1%;
     margin-top:1%;
+    font-size: 15px;
   }
 
   nav ul{
@@ -284,12 +295,22 @@ nav ul{
     display:inline-block;
     width:50%;
     float:left;
+    margin-left:5%;
 
   }
+
 
   .right{
     display:inline-block;
     width:50%;
+    padding-left:1%;
+
+  }
+
+  .right p{
+    margin-left:2%;
+    padding:2%;
+    display:relative;
 
   }
 
